@@ -1,6 +1,39 @@
 * {
-  background-color: rgb(83, 83, 83);
+  margin: 0;
+  padding: 0;
 }
-.navbar__links {
-  color: white;
+body {
+  
+}
+.fa-solid {
+  padding: 1rem;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.header__navbar__links {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 6rem;
+}
+.header__navbar {
+  background-color: rgb(255, 162, 162);
+  transition: 1s;
+  width: 100vw;
+  height: 50vh;
+}
+.header__navbar ul {
+  transition: 6s;
+  opacity: 1;
+}
+.header__navbar__close {
+  background-color: rgb(255, 162, 162);
+  border-bottom-right-radius: 50%;
+  transition: 1s;
+  width: 5.5rem;
+  height: 6rem;
+}
+.header__navbar__close ul {
+  transition: 0.2s;
+  opacity: 0;
 }
