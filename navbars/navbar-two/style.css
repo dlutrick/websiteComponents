@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.heading .navbar {
+    background-color: #1896fd;
+    height: 100vh;
+    transition: 1s;
+}
+.navbar .closemenu {
+    transform: translateX(100rem);
+}
+.fa-solid {
+    font-size: 3.5rem;
+}
