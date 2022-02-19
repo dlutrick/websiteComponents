@@ -4,7 +4,7 @@ const menu = {
     menuContainer: document.querySelector('.header__navbar')
 };
 
-function toggleMenu(){
+menu.toggleBtn.addEventListener('click', function(){
     if (menu.menuContainer.classList.contains('header__navbar__close')){
         menu.menuContainer.classList.remove('header__navbar__close');
         menu.toggleBtn.classList.remove('fa-bars');
@@ -14,6 +14,4 @@ function toggleMenu(){
         menu.toggleBtn.classList.add('fa-bars');
         menu.toggleBtn.classList.remove('fa-xmark');
     }
-};
-
-menu.toggleBtn.addEventListener('click', toggleMenu);
+});
